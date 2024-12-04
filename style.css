@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf1b7; 
+}
+
+
+.nav-bar {
+    background-color: #fcce03;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+}
+
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 40px; 
+}
+
+.nav-list li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(122, 60, 60);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #5a0d0d;
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+}
+
+.search-container input {
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 25px;
+    
+}
+
+.search-container button {
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(122, 60, 60);
+    color: #fcce03;
+    border: none;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+    margin-right: 180px;
+margin-top: 40px;
+}
+
+#cart {
+    width: 50px;
+    height: 60px;
+   
+    margin-bottom: -15px;
+}
+
+.cart-container a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(122, 60, 60);
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fdf1b7; 
+}
+
+.hero-content {
+    max-width: 600px; 
+}
+h1{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(122, 60, 60);
+    color: #fcce03;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#snak-image {
+    width: 500px; 
+    height: 500px; 
+    object-fit: cover; 
+}
+#snak{
+    text-align: center;
+    text-decoration: solid;
+    color: rgb(122, 60, 60);
+}
+#images{
+    margin-top: 90px;
+}
