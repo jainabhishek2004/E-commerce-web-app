@@ -21,4 +21,3 @@ function changeSnackName() {
 }
 
 setInterval(changeSnackName, 2000); 
-
